@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:futter_app/views/firebase/firebase_listview.dart';
 import 'package:futter_app/views/login_page.dart';
 import 'package:futter_app/views/sign_up.dart';
 import 'package:futter_app/views/todo_listview.dart';
@@ -35,7 +36,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: Sign_Up(),
+      home: FireBaseListView(),
     );
   }
 }

@@ -41,6 +41,7 @@ dependencies:
   shared_preferences: ^2.2.0
   firebase_core: any
   firebase_auth: any
+  cloud_firestore: ^4.8.3
 
 
 
